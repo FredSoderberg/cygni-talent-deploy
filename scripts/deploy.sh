@@ -14,7 +14,7 @@ echo "
 Description=Cygni Competence Deploy
 
 [Service]
-User=cygni
+User=${DEPLOY_USER}
 ExecStart=/usr/bin/env npm start
 Environment=NODE_ENV=production
 Environment=PORT=8080
